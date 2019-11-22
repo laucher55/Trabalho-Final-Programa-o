@@ -4,6 +4,7 @@ try {
     if($conn){
         echo 'Conectado//';
     }
+    
 } catch (PDOException $e) {
     echo 'error:' . $e->getMessage();
 }
