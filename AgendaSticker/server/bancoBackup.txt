@@ -1,5 +1,6 @@
 create database agendasticker;
 
+
 create table registro(
 	id integer primary KEY,
     titulo varchar(255),
